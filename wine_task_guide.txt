@@ -1,0 +1,33 @@
+Task: Predict the quality of the wine.
+
+Suggested key steps:
+   1 Pre-process the features and visualise them to make sense of the data
+   2 Figure out a decision-rule (no machine learning) that will give you a baseline accuracy
+   3 Try a simple linear model
+   4 Used a more advance technique of your choice
+   5 Evaluate the models to select which one does best
+
+Features
+
+   Based on physicochemical tests
+   - fixed acidity
+   - volatile acidity
+   - citric acid
+   - residual sugar
+   - chlorides
+   - free sulfur dioxide
+   - total sulfur dioxide
+   - density
+   - pH
+   - sulphates
+   - alcohol
+
+   Based on qualitative analysis
+   - technique: keyword of techniques that were used to produce the wine
+   - type: broad qualitative summary of the category of wine. The first word describe the color the second one describe the overal intensity of the tasting. This feature as a tree-like structure
+   - sweetness: keyword summarising of the taste 
+
+   Based on a majority vote of wine experts
+   - quality
+
+Comments: there are no missing values
